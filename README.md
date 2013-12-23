@@ -1,6 +1,6 @@
 # grunt-cordova-cleaner
 
-> Cleans unnecessary files copied files after the preapring process of Cordova
+> Cleans unnecessary files copied files after the preparing process of Cordova
 
 ## Getting Started
 This plugin requires Grunt `~0.4.2`
