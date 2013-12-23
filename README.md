@@ -69,10 +69,6 @@ In this example, the default options are used to ... TODO
 grunt.initConfig({
   cordova_cleaner: {
     options: {},
-    htmlFile: 'app.html',
-    alwaysInclude: ['config.xml', 'img/**', 'fonts/**', 'templates/**'],
-    foldersToClean: ['platforms/android/assets/www/', 'platforms/ios/www/']
-  },
 });
 ```
 
@@ -83,8 +79,9 @@ In this example, custom options are used to TODO
 grunt.initConfig({
   cordova_cleaner: {
     options: {
-      separator: ': ',
-      punctuation: ' !!!',
+      htmlFile: 'app.html',
+      alwaysInclude: ['config.xml', 'img/**', 'fonts/**', 'templates/**'],
+      foldersToClean: ['platforms/android/assets/www/', 'platforms/ios/www/']
     },
   },
 });
